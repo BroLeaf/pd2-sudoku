@@ -12,8 +12,9 @@ class Sudoku{
         int getBlank();
         int checkRow(int num);
         int checkColumn(int num);
-        int checkSquare(int num);
-        void changeNum(int a,int b);
+       	int checkSquare(int num);
+		void comparision();
+	   	void changeNum(int a,int b);
         void changeRow(int a,int b);
         void changeCol(int a,int b);
         void rotate(int a);
