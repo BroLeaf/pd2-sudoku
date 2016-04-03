@@ -1,9 +1,7 @@
 #include<iostream>
 #include<stdlib.h>
 #include<time.h>
-#define sudokuSize 81;
 using namespace std;
-//static const int sudokuSize = 81;
 class Sudoku{
     public:
         int check(int arr[]);

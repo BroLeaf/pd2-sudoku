@@ -16,6 +16,5 @@ transform.o:transform.cpp Sudoku.h
 main.o:main.cpp Sudoku.h
 	g++ -c main.cpp
 
- 
-
-
+clean:
+	rm Sudoku*.o giveQuestion*.o solve*.o transform*.o

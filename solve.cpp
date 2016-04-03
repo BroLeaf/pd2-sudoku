@@ -48,8 +48,7 @@ void Sudoku::solve(){
     for(j=0;j<81;j++){
         compare[j]=map[j];
     }
-    //comparision();
-    while(i<81){
+	while(i<81){
         if(i<0)break;
         if(map[i]==0)map[i]++;
 
@@ -79,7 +78,7 @@ void Sudoku::solve(){
                 map[i]++;
                 correct++;      //正解次數 
                 if(correct>1){      //有兩個以上解，直接print2 
-                    cout<<"2"<<endl;
+                    cout<<"1"<<endl;
                     return;
                     //break;
                 }
