@@ -79,7 +79,7 @@ void Sudoku::solve(){
 				map[i]++;
 				correct++;      //正解次數 
 				if(correct>1){      //有兩個以上解，直接print2 
-					cout<<"1"<<endl;
+					cout<<"2"<<endl;
 					return;
 					//break;
 				}
@@ -93,7 +93,7 @@ void Sudoku::solve(){
 		cout<<"0"<<endl;
 		return;
 	}
-	cout<<"2"<<endl;
+	cout<<"1"<<endl;
 	printOut(copy);
 	return;
 }

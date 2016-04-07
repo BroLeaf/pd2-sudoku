@@ -22,7 +22,6 @@ class Sudoku{
         void transform();
     private:
         int map[81];
-        int map2[81];
         int compare[81];
         int copy[81];
         int candidate[9];
